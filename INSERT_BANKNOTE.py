@@ -1,6 +1,3 @@
-from turtle import update
-
-
 def insert_banknote():
     denominations = []
     with open('banknotes.txt', 'r') as file:
